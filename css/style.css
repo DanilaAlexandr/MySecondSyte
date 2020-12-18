@@ -1,0 +1,218 @@
+.container{
+    max-width: 1300px;
+    margin: auto;   
+}
+body{
+    margin: 0;
+    padding-top: 65px;
+    overflow-x: hidden;
+    font-family: Montserrat;
+}
+.header{
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    grid-column-gap: 10%;
+
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+ul.menu{
+    list-style-type: none;
+     display: flex;
+    grid-column-gap: 5%;
+    margin: 0;
+    left: 20px;
+    padding: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+ul.menu li a{  
+    display: block;
+    padding: 5px 20px;
+    margin: 15px;
+    background-color: rgb(21 74 70 / 10%);
+    border-radius: 40px;
+    color: #32414c;   
+    text-decoration: none;
+}
+.logo{
+    height: 60px;
+    width: 100px;
+}
+.logo_img{
+    position: absolute;
+    left: 50px;
+}
+header{
+    position: relative;
+    background-image: url("../img/FirstImgShoes.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+
+    display: flex;
+
+    font-size: 35px;
+}
+
+header h1{
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    color: #445487e6;
+}
+header button{
+    position: absolute;
+    width: 173px;
+    height: 64px;
+    left: 210px;
+    top: 475px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border: 2px solid #37416394;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #d4e2e4b8;
+    filter: drop-shadow(3px 1px 4px rgba(129, 182, 189, 0.8));
+    background: none;
+    outline: none;
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.Imgpopular img {
+    width: 100%;
+    height: 100%;
+    }
+.title{
+    text-align: center;
+    color: #333237;
+
+    font-size: 50px;
+}
+.item_text{
+    color: #333237;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.partners{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.photo img {
+    height: 19vh;
+} 
+
+
+#Style{
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.grid_container_c{
+    background-color: white;
+    padding-right: 16px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+    max-height: 100vh;
+}
+.Manstulesss {
+    padding-top: 60px;
+    text-align: center;
+    color: rgb(43 49 48 / 86%);
+    font-weight: bold;
+    font-size: 50px;
+}
+.Manstulesss2 {
+    text-align: center;
+    color: rgb(43 49 48 / 86%);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ImportalPosition {
+    position: bottom;
+}
+.ImgModel img{
+    height: 25vh;
+}
+
+
+
+.ImgTitle {
+    position: relative;
+    height: 720px;
+    width: 100%;
+}
+.ImgTitle img {
+    width: 100%;
+    height: 100%;
+}
+.ButtonExample {
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    text-align: center;
+}
+.ButtonExample button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(232 130 130 / 58%);
+    color: white;
+    border: none;
+    font-size: 26px;
+}
+.ManStyle{
+    position: relative;
+    padding-top: 0px;
+    left: 20px;
+    text-align: center;
+    color: rgb(43 49 48 / 86%);
+    font-weight: bold;
+    font-size: 50px;
+}
+div.ButtonExample span{
+    font-size: 20px;
+    bottom: 20px;
+    color: black;
+
+
+}
+#nomer{
+    position: absolute;
+    left: 130px;
+}
+#nomer2{
+    position: absolute;
+    left: 400px;
+}
+#nomer3{
+    position: absolute;
+    left: 640px;
+
+}
+#nomer4{
+    position: absolute;
+    left: 911px;
+}
